@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículo 3 - Problemática Social</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            border-bottom: 3px solid #0056b3;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #0056b3;
+            font-size: 2.3rem;
+        }
+        h2 {
+            color: #444;
+            margin-top: 30px;
+        }
+        .meta-info {
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+        }
+        .articulo-contenido {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .imagen-destacada {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin-top: 20px;
+            border-radius: 6px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .fuentes {
+            background-color: #eee;
+            padding: 15px;
+            margin-top: 40px;
+            border-left: 4px solid #666;
+            font-size: 0.85rem;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menú de navegación para conectar tus archivos -->
+    <nav>
+        <a href="articulo3.html">Artículo 3</a>
+        <a href="unete.html">Únete</a>
+        <a href="eventos.html">Eventos</a>
+    </nav>
+
+    <article class="articulo-contenido">
+        <header>
+            <h1>La Brecha Digital: El nuevo rostro de la desigualdad educativa</h1>
+            <p class="meta-info">Por el Equipo del Proyecto Académico · Publicado en junio de 2026</p>
+        </header>
+
+        <!-- IMAGEN REFERENTE AL CONTENIDO -->
+        <!-- Puedes cambiar la URL de Unsplash por la ruta de tu propia imagen local si lo prefieres -->
+        <img src="https://images.unsplash.com/photo-1571844307880-751c6d86f3f3?auto=format&fit=crop&w=800&q=80" 
+             alt="Estudiante intentando tomar clases en línea en una zona rural" 
+             class="imagen-destacada">
+
+        <p>
+            En la última década, el acceso a las Tecnologías de la Información y la Comunicación (TIC) se ha consolidado como un pilar fundamental para el desarrollo humano. Sin embargo, lo que debió ser una herramienta de democratización del conocimiento ha profundizado las diferencias socioeconómicas preexistentes. Esta problemática se conoce formalmente como <strong>la brecha digital</strong>.
+        </p>
+
+        <p>
+            De acuerdo con datos de la <strong>UNESCO</strong>, más del 40% de los estudiantes a nivel mundial carecen de una conexión a internet estable en sus hogares o no disponen de un dispositivo informático adecuado para fines educativos. Esta carencia no solo limita el rendimiento escolar inmediato, sino que restringe severamente el desarrollo de competencias tecnológicas esenciales para el mercado laboral del siglo XXI.
+        </p>
+
+        <h2>Impacto en comunidades vulnerables</h2>
+        <p>
+            Informes de la <strong>CEPAL</strong> (Comisión Económica para América Latina y el Caribe) revelan que la falta de conectividad afecta de manera desproporcionada a las zonas rurales y a las familias de menores ingresos. Mientras que en los centros urbanos la cobertura digital es casi universal, en las periferias y comunidades marginadas, estudiar en línea representa una barrera económica insalvable, provocando un aumento en las tasas de deserción escolar.
+        </p>
+        
+        <p>
+            Nuestro proyecto surge precisamente para combatir esta realidad, buscando crear estrategias comunitarias que acerquen la tecnología y la capacitación digital a quienes más lo necesitan.
+        </p>
+
+        <h2>Análisis visual de la problemática</h2>
+        <p>
+            A continuación, compartimos un recurso audiovisual interactivo que profundiza en las causas estructurales de esta desigualdad y cómo la falta de infraestructura digital frena el progreso social.
+        </p>
+
+        <!-- VIDEO REFERENTE A LA PROBLEMÁTICA -->
+        <!-- Se incluye un video educativo de YouTube integrado con un contenedor responsivo -->
+        <div class="video-container">
+            <iframe 
+                src="https://www.youtube.com/embed/304Vsc6Fkco" 
+                title="Video sobre la Brecha Digital y la Educación" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- FUENTES CONFIABLES Y ACADÉMICAS -->
+        <footer class="fuentes">
+            <strong>Fuentes académicas y oficiales consultadas:</strong>
+            <ul>
+                <li><strong>UNESCO (2023)</strong>. <em>Informe de Seguimiento de la Educación en el Mundo: Tecnología en la educación.</em> París, Francia.</li>
+                <li><strong>CEPAL (2024)</strong>. <em>Panorama Social de América Latina y el Caribe: Inclusión digital para la equidad.</em> Naciones Unidas.</li>
+            </ul>
+        </footer>
+    </article>
+
+</body>
+</html>
